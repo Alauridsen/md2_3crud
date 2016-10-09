@@ -1,0 +1,54 @@
+html, body {
+	margin: 0;
+	padding: 0;	
+}
+
+#menu {
+	background-color: #433C3C;
+	margin: 0;
+	padding: 20px;
+}
+
+.hidden {
+	display: none !important;	
+	
+}
+
+.login {
+	float: right;
+}
+
+#menu li, .login {
+	display: inline;
+	margin-left: 50px;
+}
+
+#menu li a, #menu li p{
+	text-decoration: none;
+	font-size: 20px;
+	color: #F7F7F7;
+	font-family: arial;
+}
+
+h1, h2, h3 {
+	margin-left: 20px;	
+}
+
+.active {
+	font-weight: bold;
+	text-shadow: 2px 2px #000000;
+}
+@media screen and (max-width: 640px) {
+
+li {
+	margin-left: 0px;
+	margin-top: 10px;
+	text-align: center;
+	display: block;	
+}
+
+.login {
+	float: none;	
+}
+
+}
